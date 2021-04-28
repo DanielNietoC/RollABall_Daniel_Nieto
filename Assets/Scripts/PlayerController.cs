@@ -37,6 +37,7 @@ public class PlayerController : MonoBehaviour {
         winTextObject.SetActive(false);
 
 		Victory.Stop();
+		Coin.Stop();
 	}
 
 	void FixedUpdate ()
